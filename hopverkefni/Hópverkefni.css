@@ -1,0 +1,350 @@
+body , html {
+	
+	margin: 0 auto;
+	padding: 0;
+  max-width: 80em;
+  background:    -moz-linear-gradient(to top, grey, #353838);
+  background:         linear-gradient(to top, #353838, grey);
+}
+
+
+.fonts {
+	font-family: 'Shrikhand', cursive;
+}
+
+.parallax { 
+    /* The image used */
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Gadus_morhua_Cod-2b-Atlanterhavsparken-Norway.JPG/1200px-Gadus_morhua_Cod-2b-Atlanterhavsparken-Norway.JPG");
+
+    /* Set a specific height */
+    height: 800px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.fonts {
+  font-family: Helvetica, sans-serif;
+}
+
+h1 {
+  padding: 9em 0 0 0;
+  margin: 0;
+  text-align: center;
+  font-size: 3em;
+  font-family: 'Oswald', sans-serif;
+  color: blue;
+}
+h2 {
+  padding: 0 auto;
+  margin: 0;
+  text-align: center;
+  font-size: 3em;
+  font-family: 'Oswald', sans-serif;
+  color: blue;
+}
+h3 {
+  color: blue;
+  text-align: center;
+}
+h4 {
+  width: 50%;
+}
+h5 {
+  font-size: 14pt;
+  color: white;
+  text-align: center;
+}
+h6 {
+  color: white;
+}
+p {
+  font-size: 1;
+}
+
+
+.yolo {
+
+  font-size:36px;  
+}
+video, img{
+  max-width:100%;
+  height: auto;
+}
+
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+.box {
+  padding: 1em;
+  border: 1px dotted blue;
+  text-align: justify;
+  max-width: 50%;
+  float: left;
+}
+.box2 {
+  padding: 1em;
+  border: 1px dotted blue;
+  text-align: justify;
+  width: 100%;
+}
+.box3 {
+  border: 1px dotted blue;
+  width: 20%;
+  float: right;
+  margin-bottom: -5em;
+}
+
+.box4 {
+  padding: 1em;
+  border: 1px dotted blue;
+  text-align: justify;
+  width: 85%;
+}
+.box10 {
+  padding: 1em;
+  border: 1px dotted blue;
+  text-align: justify;
+  max-width: 50%;
+  float: right;
+}
+.overwatchV {
+  float: none;
+  width:100%;
+}
+.overwatchV1{
+  float: none;
+  width:100%;
+}
+.overwatchV1 iframe,
+.overwatchV iframe {
+  width:98%;
+  height:400px;
+}
+
+.personur{
+  float: right;
+  padding-right: 100px;
+  font-size: 22pt;
+  color: white;
+}
+
+@media screen and (min-width: 48em) {
+
+
+
+}
+@media screen and (min-width: 64em) {
+  .overwatchV {
+    float: left;
+    width:50%;
+  }
+  .overwatchV1{
+    float: right;
+    width:50%;
+  }
+  .overwatchV1 iframe,
+  .overwatchV iframe {
+    width:600px;
+    height:400px;
+  }
+
+  .box-set{
+    display: block;
+     position: fixed;
+    top: 4em;
+    left: 0;
+    width: 2em;
+    height: 8em;
+  }
+
+
+
+#cf {
+  position:relative;
+  height:281px;
+  width:450px;
+  margin:0 auto;
+}
+#cf img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+#cf img.transparent {
+opacity:0;
+}
+#cf_onclick {
+cursor:pointer;
+}
+
+.Allir_leikir {
+  text-align: center;
+  float: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+th,
+td {
+  padding: 10px 15px;
+}
+thead {
+  background: #d38817;
+  color: #fff;
+}
+tfoot {
+  background: #f0f0f2;
+}
+th {
+  font-weight: bold;
+}
+tbody tr:nth-child(even) {
+  background: #f0f0f2;
+}
+td {
+  border-bottom: 1px solid #cecfd5;
+  border-right: 1px solid #cecfd5;
+}
+td:first-child {
+  border-left: 1px solid #cecfd5;
+}
+
+
+
+
+
+
+
+*,
+*:before,
+*:after {
+   box-sizing: border-box;
+}
+form {
+  border-radius: 6px;
+  font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  border-radius: 6px;
+  overflow: hidden;
+  width: 240px;
+
+}
+fieldset {
+  border: 1px solid #cecfd5;
+  border-radius: 6px;
+  padding: 24px 30px;
+}
+input {
+  border-radius: 5px;
+  font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  color: red;
+}
+.account-info {
+  padding: 20px 20px 0 20px;
+}
+.account-info label {
+  color: #395870;
+  display: block;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.account-info input {
+  background: #fff;
+  border: 1px solid #c6c7cc;
+   box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
+  color: #636466;
+  padding: 6px;
+  margin-top: 6px;
+  width: 100%;
+}
+.account-action {
+  background: #f0f0f2;
+  border-top: 1px solid #c6c7cc;
+  padding: 20px;
+}
+.account-action .btn {
+  background: linear-gradient(#49708f, #293f50);
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+  float: left;
+  padding: 8px 16px;
+}
+.account-action label {
+  color: #7c7c80;
+  font-size: 12px;
+  float: left;
+  margin: 10px 0 0 20px;
+}
+
+
+.Login {
+  float: right;
+  background-color: white;
+  padding: 1em;
+  border: 10px;
+  border-radius: 250px / 50px ;
+  margin-top: 0px;
+
+}
+
+
+
+
+
+}
+textarea {
+  height: 5em;
+  max-width: 25em;
+  widows: 25em;
+  color: red;
+}
+
+
+
+
+
